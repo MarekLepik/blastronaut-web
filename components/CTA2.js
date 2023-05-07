@@ -7,7 +7,7 @@ export default function CTA2() {
       <div className="absolute z-10 w-full h-full overflow-hidden animate-scale-bottom CTA2 ShowAnimHidden-Blur">
         <Image
           className="object-cover"
-          src="/assets/renders/bottomCave2.png"
+          src="/assets/renders/bottomCave.png"
           alt="Cave image"
           object-fit="cover"
           fill
@@ -18,7 +18,7 @@ export default function CTA2() {
       <div className="absolute z-20 w-full h-full animate-slide-blastro CTA2 ShowAnimHidden-Blur">
         <Image
           className="object-cover"
-          src="/assets/renders/BlastroMan4.png"
+          src="/assets/renders/BlastroMan.png"
           alt="Blastroman image"
           fill
         />
@@ -38,7 +38,7 @@ export default function CTA2() {
       <div className="absolute z-30 w-full h-full animate-slide-top mb-52 CTA2 ShowAnimHidden-Blur">
         <Image
           className="object-cover"
-          src="/assets/renders/caveBorder3.png"
+          src="/assets/renders/caveBorder.png"
           alt="Border Cave image"
           fill
         />

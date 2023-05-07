@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className="text-xl text-white font-bold leading-tight mb-5 ShowAnimHidden-Left">
             Mine, Fly, Profit, Upgrade and Conquer the World!
           </h1>
-          <div className="flex text-center mt-4 ">
+          <div className="flex text-center mt-14 ">
             <div className="w-full CTA1 ShowAnimHidden-Left">
               <a href="https://store.steampowered.com/app/1392650/BLASTRONAUT/">
                 <button className="px-8 py-3 xl:py-5 xl:px-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
@@ -20,7 +20,7 @@ const Hero = () => {
                 </button>
               </a>
             </div>
-            <div className="w-full text-white text-start CTA1 ShowAnimHidden-Left">
+            <div className="w-full text-white text-start CTA1 ShowAnimHidden-Left grid items-center">
               {/**
               <img className="w-3/4" src="/assets/reviews.png" />
                */}
@@ -40,7 +40,7 @@ const Hero = () => {
               loop
               muted
             >
-              <source src="/assets/BlastroHero.mp4" type="video/mp4" />
+              <source src="/assets/BlastroHero-NoAudio.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

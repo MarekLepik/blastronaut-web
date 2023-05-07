@@ -3,7 +3,7 @@ import React from "react";
 function Details() {
   //style={{ backgroundImage: "url('assets/render_21.png')" }}
   return (
-    <div className="space-y-5 bg-cover bg-center">
+    <div className="space-y-5 bg-cover bg-center lg:max-w-[90rem] mx-auto">
       <div className="grid grid-cols-2 w-full mt-20 h-screen">
         <div className="col-start-1 w-full bg-red-200">
           <h1>first</h1>

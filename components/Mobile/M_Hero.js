@@ -7,10 +7,7 @@ const M_Hero = () => {
         loop
         muted
       >
-        <source
-          src="/assets/BlastronautGameWavePitchVideo.mp4"
-          type="video/mp4"
-        />
+        <source src="/assets/BlastroHero-NoAudio.mp4" type="video/mp4" />
       </video>
 
       <div className="relative z-20 flex items-center justify-center h-full">
