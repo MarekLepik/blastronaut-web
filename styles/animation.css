@@ -22,7 +22,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-60px);
+    transform: translateY(-30px);
   }
   100% {
     transform: translateY(0px);
@@ -89,11 +89,15 @@
 }
 
 .animate-scale-worm {
-  animation: scale-slide-animation-worm 20s linear infinite;
+  animation: scale-slide-animation-worm 10s linear infinite;
 }
 
 .animate-slide-blastro {
-  animation: slide-top 16s linear infinite;
+  animation: slide-top 5s linear infinite;
+}
+
+.animate-slide-drone {
+  animation: slide-top 3s linear infinite;
 }
 
 .ShowAnimHidden-Left {

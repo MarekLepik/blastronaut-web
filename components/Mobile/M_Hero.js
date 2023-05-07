@@ -13,7 +13,7 @@ const M_Hero = () => {
       <div className="relative z-20 flex items-center justify-center h-full">
         <div className="text-center">
           <img className="" src="/assets/BlastroLogo.png" />
-          <h1 className="text-3xl text-white font-bold leading-tight">
+          <h1 className="text-3xl text-white font-bold leading-tight shadow-2xl">
             Embark on an Epic Journey
           </h1>
           <h1 className="text-xl text-white font-bold leading-tight">
