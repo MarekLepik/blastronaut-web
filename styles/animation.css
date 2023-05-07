@@ -1,0 +1,135 @@
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+@keyframes blur-bottom {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-slide-animation-worm {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes BlastroBlur {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+.animate-scale-bottom {
+  animation: scale-animation 16s linear infinite;
+}
+
+.ShowAnimHidden-Blur {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+}
+.ShowAnimVisible-Blur {
+  opacity: 1;
+
+  filter: blur(0);
+}
+.CTA2:nth-child(1) {
+  transition-delay: 100ms;
+}
+.CTA2:nth-child(2) {
+  transition-delay: 50ms;
+}
+.CTA2:nth-child(3) {
+  transition-delay: 50ms;
+}
+
+.animate-scale-worm {
+  animation: scale-slide-animation-worm 20s linear infinite;
+}
+
+.animate-slide-blastro {
+  animation: slide-top 16s linear infinite;
+}
+
+.ShowAnimHidden-Left {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.ShowAnimVisible-Left {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
+}
+
+.ShowAnimHidden-Right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+.ShowAnimVisible-Right {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
+}
+.BlastroLogo {
+  animation: BlastroBlur 0.5s ease-in;
+}
+
+.CTA1:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.detailsRow:nth-child(2) {
+  transition-delay: 200ms;
+}
+.detailsRow:nth-child(3) {
+  transition-delay: 400ms;
+}
