@@ -18,7 +18,7 @@ export default function CTA2() {
       <div className="absolute z-20 w-full h-full animate-slide-blastro CTA2 ShowAnimHidden-Blur">
         <Image
           className="object-cover"
-          src="/assets/renders/Blastroman.png "
+          src="/assets/renders/Blastroman.png"
           alt="Blastroman image"
           fill
         />
