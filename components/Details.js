@@ -33,7 +33,7 @@ function Details() {
             </h1>
             <p className="text-justify max-w-md text-2xl ShowAnimHidden-Left">
               Navigating through treacherous terrain to discover and mine
-              valuable resources. As you progress, you'll uncover a variety of
+              valuable resources. As you progress, you will uncover a variety of
               ores hidden deep within the earth. Be prepared, as each mining
               expedition will present its own set of challenges and obstacles.
             </p>
@@ -84,7 +84,7 @@ function Details() {
               Upgrade
             </h1>
             <p className="text-justify max-w-md text-2xl ShowAnimHidden-Left">
-              As you mine resources, you'll earn profits that can be used to
+              As you mine resources, you will earn profits that can be used to
               upgrade your tools, weapons, and jetpack. Enhancing your gear will
               enable you to mine faster, deal more damage to enemies.
             </p>
