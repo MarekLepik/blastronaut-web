@@ -43,19 +43,6 @@ export default function Home() {
     leftElements.forEach((el) => observerLeft.observe(el));
     rightElements.forEach((el) => observerRight.observe(el));
     blurElements.forEach((el) => observerBlur.observe(el));
-
-    const rVideo = document.getElementById("videoElement");
-    if (rVideo) {
-      rVideo.pause();
-      rVideo
-        .play()
-        .then((res) => {
-          console.log("playing start", res);
-        })
-        .catch((err) => {
-          console.log("error playing", err);
-        });
-    }
   });
   return (
     <div className="bg-Blastro imgDiv">
