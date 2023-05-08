@@ -1,7 +1,20 @@
 const M_Hero = () => {
+  const rVideo = document.getElementById("videoElement");
+  if (rVideo) {
+    rVideo.pause();
+    rVideo
+      .play()
+      .then((res) => {
+        console.log("playing start", res);
+      })
+      .catch((err) => {
+        console.log("error playing", err);
+      });
+  }
   return (
     <section className="relative bg-gray-800 h-screen overflow-hidden lg:hidden">
       <video
+        id="videoElement"
         className="absolute z-10 w-full h-full object-cover"
         autoPlay
         loop

@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="flex text-center mt-14 ">
             <div className="w-full CTA1 ShowAnimHidden-Left">
               <a href="https://store.steampowered.com/app/1392650/BLASTRONAUT/">
-                <button className=" text-xl px-8 py-3 xl:py-5 xl:px-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
+                <button className="font-bold text-xl px-8 py-3 xl:py-5 xl:px-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
                   Play now on Steam
                 </button>
               </a>
