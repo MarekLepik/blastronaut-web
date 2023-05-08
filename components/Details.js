@@ -68,7 +68,7 @@ function Details() {
           <div className="animate-slide-blastro absolute z-10 w-32 h-32 right-0 bottom-0">
             <Image
               className="object-contain fixed"
-              src="/assets/renders/blastro2-cropped.png"
+              src="/assets/renders/Blastro2-cropped.png"
               alt="Cave image"
               object-fit="cover"
               fill
