@@ -22,3 +22,23 @@ body {
 .imgDiv {
   overflow: hidden !important;
 }
+.blastroButton {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(111, 174, 77, 1) 10%,
+    rgba(190, 211, 64, 1) 90%
+  );
+  border-radius: 0.75rem;
+  transition: all 0.2s linear;
+}
+.blastroButton:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(111, 174, 77, 1) 30%,
+    rgba(190, 211, 64, 1) 70%
+  );
+  transform: scale(102%);
+  border-radius: 1.1rem;
+}

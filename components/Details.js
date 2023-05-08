@@ -23,27 +23,38 @@ function Details() {
   }, []);
 
   return (
-    <div className="space-y-5 px-4 bg-cover bg-center lg:max-w-[90rem] mx-auto w-full overflow-hidden">
+    <div className="space-y-5 2xl:pt-52 px-4 bg-cover bg-center lg:max-w-[90rem] mx-auto w-full overflow-hidden">
       {/*First descript */}
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 h-[50rem]">
         <div className="col-start-1 w-full relative text-white">
-          <div className="top-40 right-20 z-20 absolute space-y-4">
-            <h1 className="text-4xl text-white font-bold leading-tight ShowAnimHidden-Left">
+          <div className="top-40 right-20 z-20 absolute space-y-4 ShowAnimHidden-Left">
+            <h1 className="text-4xl text-white font-bold leading-tight">
               Locate & Gather
             </h1>
-            <p className="text-justify max-w-md text-2xl ShowAnimHidden-Left">
+            <p className="text-justify max-w-md text-2xl">
               Navigating through treacherous terrain to discover and mine
               valuable resources. As you progress, you will uncover a variety of
               ores hidden deep within the earth. Be prepared, as each mining
               expedition will present its own set of challenges and obstacles.
             </p>
           </div>
-
           <div className="animate-slide-drone absolute z-10 w-40 h-40 left-0 bottom-0">
             <Image
               className="object-contain fixed"
               src="/assets/renders/drone1.png"
-              alt="Cave image"
+              alt="Drone image"
+              object-fit="cover"
+              fill
+            />
+          </div>
+        </div>
+
+        <div className="col-start-2 w-full h-full relative text-white">
+          <div className="relative top-40 z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Left">
+            <Image
+              className="object-cover rounded-2xl"
+              src="/assets/locateScreen.png"
+              alt="Locate image"
               object-fit="cover"
               fill
             />
@@ -53,6 +64,17 @@ function Details() {
 
       {/*Second Descript */}
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-[30rem]">
+        <div className="col-start-1 w-full h-full relative text-white">
+          <div className="relative z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Right">
+            <Image
+              className="object-cover rounded-2xl"
+              src="/assets/surviveScreen.png"
+              alt="Survive image"
+              object-fit="cover"
+              fill
+            />
+          </div>
+        </div>
         <div className="col-start-1 lg:col-start-2 w-full relative text-white">
           <div className=" left-20 z-20 absolute space-y-4">
             <h1 className="text-4xl text-white font-bold leading-tight ShowAnimHidden-Right">
@@ -69,13 +91,14 @@ function Details() {
             <Image
               className="object-contain fixed"
               src="/assets/renders/Blastro2-cropped.png"
-              alt="Cave image"
+              alt="Blastro figure"
               object-fit="cover"
               fill
             />
           </div>
         </div>
       </div>
+
       {/*Third descript */}
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 h-[30rem]">
         <div className="col-start-1 w-full relative text-white">
@@ -90,20 +113,32 @@ function Details() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full">
-        <div className="col-start-1 lg:col-start-2 w-full relative text-white">
-          <div
-            ref={elementRef}
-            className="absolute z-10 w-40 h-40 right-0 lg:left-0 bottom-0"
-          >
+
+        <div className="col-start-2 w-full h-full relative text-white">
+          <div className="relative z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Left">
             <Image
-              className="object-contain"
-              src="/assets/renders/drone2.png"
-              alt="Cave image"
+              className="object-cover rounded-2xl"
+              src="/assets/upgradeScreen.png"
+              alt="Upgrade image"
               object-fit="cover"
               fill
             />
+          </div>
+          <div className="w-full h-full">
+            <div className="col-start-1 lg:col-start-2 w-full relative text-white">
+              <div
+                ref={elementRef}
+                className="absolute z-10 w-40 h-40 right-0 lg:left-0 bottom-0"
+              >
+                <Image
+                  className="object-contain"
+                  src="/assets/renders/drone2.png"
+                  alt="drone image"
+                  object-fit="cover"
+                  fill
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

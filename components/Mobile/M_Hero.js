@@ -8,7 +8,7 @@ const M_Hero = () => {
         loop
         muted
       >
-        <source src="/assets/BlastroHero-NoAudio.mp4" type="video/mp4" />
+        <source src="/assets/Blastro-Hero-Small.mp4" type="video/mp4" />
       </video>
 
       <div className="relative z-20 flex items-center justify-center h-full">
@@ -25,27 +25,6 @@ const M_Hero = () => {
               Play now on Steam
             </button>
           </a>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto text-center -mt-16 text-white">
-        <div className="w-full h-full grid place-items-center">
-          <div className=" border-2 text-center md:w-[12rem] lg:w-[16rem] rounded-lg rounded-tl-3xl rounded-br-3xl">
-            <h1 className="text-2xl">Explore</h1>
-            <p>Procedural...</p>
-          </div>
-        </div>
-        <div className="w-full h-full grid place-items-center">
-          <div className=" border-2 text-center md:w-[12rem] lg:w-[16rem] rounded-lg rounded-tl-3xl rounded-br-3xl ">
-            <h1 className="text-2xl">Extract</h1>
-            <p>Mine, fly...</p>
-          </div>
-        </div>
-        <div className="w-full h-full grid place-items-center">
-          <div className=" border-2 text-center md:w-[12rem] lg:w-[16rem] rounded-lg rounded-tl-3xl rounded-br-3xl ">
-            <h1 className="text-2xl">Profit</h1>
-            <p>Upgrade...</p>
-          </div>
         </div>
       </div>
     </section>
