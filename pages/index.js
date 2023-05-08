@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Details from "../components/Details";
 import Hero from "../components/Hero";
 import CTA2 from "../components/CTA2";
