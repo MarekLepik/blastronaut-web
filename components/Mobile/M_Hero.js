@@ -20,7 +20,7 @@ const M_Hero = () => {
             Mine, Fly, Profit, Upgrade and Conquer the World!
           </h1>
           <a href="https://store.steampowered.com/app/1392650/BLASTRONAUT/">
-            <button className="mt-4 pb-5 pt-5 pl-10 pr-10 rounded-xl bg-red-600 hover:bg-slate-500 hover:text-white">
+            <button className="mt-4 pb-5 pt-5 pl-10 pr-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
               Play now on Steam
             </button>
           </a>

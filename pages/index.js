@@ -45,7 +45,7 @@ export default function Home() {
     blurElements.forEach((el) => observerBlur.observe(el));
   });
   return (
-    <div className="bg-gray-800">
+    <div className="bg-Blastro imgDiv">
       {/*
       <div className="w-full h-[50rem] relative mb-10">
         <video

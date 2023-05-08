@@ -1,21 +1,21 @@
 const Hero = () => {
   return (
-    <section className="bg-gray-800 lg:h-[50rem] lg:max-w-[90rem] mx-auto pb-20 hidden lg:block">
+    <section className=" lg:h-[50rem] lg:max-w-[90rem] mx-auto pb-20 hidden lg:block">
       <div className="w-full mx-auto grid place-items-center BlastroLogo">
         <img className="" src="/assets/BlastroLogo.png" />
       </div>
       <div className="flex flex-col -mt-28 lg:flex-row items-center md:justify-between lg:max-w-[90rem] mx-auto w-full h-full">
         <div className=" z-30 md:w-1/2 lg:w-2/5">
-          <h1 className="text-3xl text-white font-bold leading-tight ShowAnimHidden-Left">
+          <h1 className="text-4xl text-white font-bold leading-tight ShowAnimHidden-Left">
             Jetpack into the epic Adventure:
           </h1>
-          <h1 className="text-xl text-white font-bold leading-tight mb-5 ShowAnimHidden-Left">
+          <h1 className="text-2xl text-white font-bold leading-tight mb-5 ShowAnimHidden-Left">
             Mine, Fly, Profit, Upgrade and Conquer the World!
           </h1>
           <div className="flex text-center mt-14 ">
             <div className="w-full CTA1 ShowAnimHidden-Left">
               <a href="https://store.steampowered.com/app/1392650/BLASTRONAUT/">
-                <button className="px-8 py-3 xl:py-5 xl:px-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
+                <button className=" text-xl px-8 py-3 xl:py-5 xl:px-10 rounded-xl bg-green-600 hover:bg-green-800 hover:text-white hover:scale-105 transition-all duration-200">
                   Play now on Steam
                 </button>
               </a>
@@ -26,8 +26,12 @@ const Hero = () => {
                */}
               <h1>Overall Reviews:</h1>
               <h1>
-                <span className="text-blue-400">Very Positive</span> reviews on
-                Steam!
+                <span className="text-blue-400 cursor-pointer">
+                  <a href="https://steamcommunity.com/app/1392650/positivereviews/?browsefilter=toprated&snr=1_5_100010_&p=1">
+                    Very Positive
+                  </a>
+                </span>{" "}
+                reviews on Steam!
               </h1>
             </div>
           </div>
