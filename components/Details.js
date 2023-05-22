@@ -25,9 +25,9 @@ function Details() {
   return (
     <div className="space-y-5 2xl:pt-52 px-4 bg-cover bg-center lg:max-w-[90rem] mx-auto w-full overflow-hidden">
       {/*First descript */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 h-[50rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 lg:h-[30rem] lg:space-y-0">
         <div className="col-start-1 w-full relative text-white">
-          <div className="top-40 right-20 z-20 absolute space-y-4 ShowAnimHidden-Left">
+          <div className="top-40 right-20 z-20 lg:absolute space-y-4 ShowAnimHidden-Left">
             <h1 className="text-4xl text-white font-bold leading-tight">
               Locate & Gather
             </h1>
@@ -38,7 +38,7 @@ function Details() {
               expedition will present its own set of challenges and obstacles.
             </p>
           </div>
-          <div className="animate-slide-drone absolute z-10 w-40 h-40 left-0 bottom-0">
+          <div className="animate-slide-drone absolute z-10 w-40 h-40 left-0 bottom-0 lg:block hidden">
             <Image
               className="object-contain fixed"
               src="/assets/renders/drone1.png"
@@ -49,8 +49,8 @@ function Details() {
           </div>
         </div>
 
-        <div className="col-start-2 w-full h-full relative text-white">
-          <div className="relative top-40 z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Left">
+        <div className="lg:col-start-2 w-full h-full relative text-white pt-10 lg:pt-0">
+          <div className="relative lg:top-40 z-20 space-y-4 h-[15rem] w-full lg:w-1/2 mx-auto ShowAnimHidden-Left">
             <Image
               className="object-cover rounded-2xl"
               src="/assets/locateScreen.png"
@@ -63,9 +63,9 @@ function Details() {
       </div>
 
       {/*Second Descript */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-[30rem]">
-        <div className="col-start-1 w-full h-full relative text-white">
-          <div className="relative z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Right">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full lg:h-[30rem] space-y-10">
+        <div className="col-start-1 order-2 w-full h-full relative text-white pt-10 lg:pt-0">
+          <div className="relative z-20 space-y-4 h-[15rem] w-full lg:w-1/2 mx-auto ShowAnimHidden-Right">
             <Image
               className="object-cover rounded-2xl"
               src="/assets/surviveScreen.png"
@@ -76,7 +76,7 @@ function Details() {
           </div>
         </div>
         <div className="col-start-1 lg:col-start-2 w-full relative text-white">
-          <div className=" left-20 z-20 absolute space-y-4">
+          <div className=" left-20 z-20 lg:absolute space-y-4">
             <h1 className="text-4xl text-white font-bold leading-tight ShowAnimHidden-Right">
               Survive
             </h1>
@@ -87,7 +87,7 @@ function Details() {
               survival.
             </p>
           </div>
-          <div className="animate-slide-blastro absolute z-10 w-32 h-32 right-0 bottom-0">
+          <div className="animate-slide-blastro absolute z-10 w-32 h-32 right-0 bottom-0 lg:block hidden">
             <Image
               className="object-contain fixed"
               src="/assets/renders/Blastro2-cropped.png"
@@ -100,9 +100,9 @@ function Details() {
       </div>
 
       {/*Third descript */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 h-[30rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full mt-20 lg:h-[30rem]">
         <div className="col-start-1 w-full relative text-white">
-          <div className=" right-20 z-20 absolute space-y-4">
+          <div className=" right-20 z-20 lg:absolute space-y-4">
             <h1 className="text-4xl text-white font-bold leading-tight ShowAnimHidden-Left">
               Upgrade
             </h1>
@@ -114,8 +114,8 @@ function Details() {
           </div>
         </div>
 
-        <div className="col-start-2 w-full h-full relative text-white">
-          <div className="relative z-20 space-y-4 h-[15rem] w-1/2 mx-auto ShowAnimHidden-Left">
+        <div className="lg:col-start-2 w-full h-full relative text-white pt-10 lg:pt-0 pb-20 lg:pb-0">
+          <div className="relative z-20 space-y-4 h-[15rem] w-full lg:w-1/2 mx-auto ShowAnimHidden-Left pb-10">
             <Image
               className="object-cover rounded-2xl"
               src="/assets/upgradeScreen.png"
@@ -128,7 +128,7 @@ function Details() {
             <div className="col-start-1 lg:col-start-2 w-full relative text-white">
               <div
                 ref={elementRef}
-                className="absolute z-10 w-40 h-40 right-0 lg:left-0 bottom-0"
+                className="absolute z-10 w-40 h-40 right-0 lg:left-0 bottom-0 lg:block hidden"
               >
                 <Image
                   className="object-contain"
